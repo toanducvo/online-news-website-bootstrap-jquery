@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="../js/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="https://kit.fontawesome.com/f118b23bdf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  <script src="../js/main.js"></script>
+  <title>Xã hội</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="row">
+      <div id="logo-header" class="col-sm-4">
+        <img src="https://blog.webico.vn/wp-content/uploads/2017/09/default-avatar.png" alt="" />
+      </div>
+      <div id="seach" class="col-sm-6">
+        <form action="./tim-kiem.html">
+          <div class="input-seach">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Tìm kiếm" id="search-news" name="search" />
+              <button class="btn" type="submit" id="button-addon1" style="background-color: white">
+                <img src="../images/search.svg" />
+              </button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+      <div id="dang-nhap" class="col-sm-2">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dangnhap">
+          Đăng Nhập
+        </button>
+      </div>
+    </header>
+    <nav class="row">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="suc-khoe.html">Sức khỏe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="xa-hoi.html">Xã hội</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="the-gioi.html">Thế giới</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kinh-doanh.html">Kinh doanh</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cong-nghe.html">Công nghệ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="the-thao.html">Thể thao</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="giai-tri.html">Giải trí</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="phap-luat.html">Pháp luật</a>
+        </li>
+      </ul>
+    </nav>
+    <br /><br />
+    <section>
+      <div class="tinchinh row">
+      </div>
+      <br /><br /><br />
+      <div class="tinmoi">
+        <h3>| Mới nhất</h3>
+        <div class="row">
+          <div class="col-sm-7">
+          </div>
+          <div class="col-sm-5"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="row">
+      <div class="row" style="width: 100%">
+        <div class="logo-footer col-sm-7">
+          <img src="https://blog.webico.vn/wp-content/uploads/2017/09/default-avatar.png" alt="" />
+        </div>
+        <div class="col-sm-5">
+          <ul class="row icons" style="list-style: none">
+            <li class="col-sm-3"><i class="fab fa-facebook-square"></i></li>
+            <li class="col-sm-3"><i class="fab fa-twitter-square"></i></li>
+            <li class="col-sm-3"><i class="fas fa-envelope-square"></i></li>
+            <li class="col-sm-3"><i class="fas fa-phone-square"></i></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row" style="width: 100%">
+        <div class="col-sm-7">
+          <p>
+            Tạp chí điện tử Tri thức trực tuyến <br />
+            Cơ quan chủ quản: Hội Xuất bản Việt Nam <br />
+            Giấy phép báo chí: số 75/GP-BTTTT <br />
+            © 2021 Toàn bộ bản quyền thuộc Tri thức trực tuyến
+          </p>
+        </div>
+        <div class="col-sm-5">
+          <p>
+            Tòa soạn: Tầng 7, D29 Phạm Văn Bạch, Quận Cầu Giấy, Hà Nội <br />
+            Hotline: 0931.222.666 - Email: toasoan@zing.vn <br />
+            Liên hệ | Tuyển dụng | Quảng cáo
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </div>
+</body>
+<div class="modal fade" id="dangnhap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Đăng nhập</h2>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div id="username-input" class="form-group">
+            <input type="email" class="form-control" id="username" placeholder="Email" />
+            <div class="alert alert-warning" role="alert" style="margin-top: 5px;">Email không hợp lệ</div>
+          </div>
+          <div id="password-input" class="form-group">
+            <input type="password" class="form-control" id="password" placeholder="Mật khẩu" />
+            <div class="alert alert-warning" role="alert" style="margin-top: 5px;">Mật khẩu không hợp lệ</div>
+          </div>
+          <div id="submit-button" class="form-group">
+            <button type="submit" class="form-control" id="submit">
+              Đăng nhập
+            </button>
+          </div>
+        </form>
+        <ul class="section-dangnhap">
+          <li>
+            <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="" class="googleplus"><i class="fa fa-google-plus"></i></a>
+          </li>
+        </ul>
+        <div class="bottom-dangnhap">
+          <p>Bạn chưa có tài khoản? <a href="">Đăng Ký Ngay</a></p>
+          <a href="">Quên mật khẩu?</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

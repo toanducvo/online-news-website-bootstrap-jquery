@@ -1,0 +1,342 @@
+@import "./normalize.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: large;
+}
+
+header {
+  height: 80px;
+  /* background-color: aqua; */
+}
+
+#logo-header {
+  height: 100%;
+  /* background-color: rgb(226, 46, 46); */
+}
+
+#logo-header img {
+  width: 50%;
+}
+
+header #seach {
+  height: 100%;
+  /* background-color: chartreuse; */
+}
+
+header #seach .input-seach {
+  margin-top: 25px;
+  float: right;
+}
+
+header #dang-nhap {
+  margin-top: 25px;
+}
+
+header #dang-nhap i {
+  margin-top: 25px;
+  font-size: 200%;
+}
+
+nav {
+  height: 60px;
+  /* background-color: rgb(45, 85, 194); */
+}
+
+nav li:hover {
+  border-bottom: 3px solid #0077b6;
+}
+nav li a {
+  font-weight: bold;
+  font-size: 120%;
+  color: #001d3d;
+}
+
+nav li a:hover {
+  color: #0077b6;
+}
+
+section {
+  /* height: 1050px; */
+  /* background-color: brown; */
+}
+
+section .tin-noi-bat {
+  /* background-color: aquamarine; */
+}
+
+section .tin-noi-bat .content-1 {
+  height: 100%;
+}
+
+/* section .tin-noi-bat .content-1 .news {
+    margin-top: 7px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+
+} */
+
+section .tin-noi-bat .content-1 a {
+  width: 50%;
+}
+
+section .tin-noi-bat .content-1 img {
+  width: 100%;
+}
+
+section .tin-noi-bat .content-2 {
+  height: 100%;
+  /* background-color: rgb(118, 101, 134); */
+}
+
+section .tin-noi-bat .content-2 img {
+  width: 100%;
+}
+
+section .tin-noi-bat .content-3 {
+  height: 100%;
+  /* background-color: rgb(109, 72, 145); */
+}
+
+section .tin-tuc {
+  /* background-color: #2b2d42; */
+}
+
+section .tin-tuc .news {
+  margin-top: 10px;
+  /* border-bottom: 1px solid black; */
+}
+
+section .tin-tuc a {
+  width: 50%;
+  color: #001d3d;
+}
+
+section .tin-tuc img {
+  width: 90%;
+}
+
+section .ban-quan-tam {
+  width: 25%;
+  /* background-color: rgb(86, 173, 35); */
+}
+
+section .ban-quan-tam .news {
+  margin-top: 10px;
+  position: relative;
+}
+
+section .ban-quan-tam img {
+  width: 90%;
+}
+
+section .ban-quan-tam .title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 130%;
+  text-align: center;
+  width: 90%;
+  left: 60%;
+  top: 30%;
+  opacity: 0;
+  transform: translate(-65%, 200%);
+}
+
+section .ban-quan-tam .news:hover img {
+  filter: brightness(65%) blur(2px);
+  transform: all 0.7s;
+}
+
+section .ban-quan-tam .news:hover .title {
+  transform: translate(-65%, 20%);
+  opacity: 1;
+  transition: all 0.7s;
+  color: white;
+}
+
+section .ngoai-le {
+  height: 250px;
+  /* background-color: rgb(32, 134, 104); */
+}
+
+.list-news {
+  width: 100%;
+  list-style: none;
+  margin-top: 70px;
+  float: left;
+}
+
+.list-news li {
+  float: left;
+}
+
+section .ngoai-le .title {
+  position: absolute;
+  font-weight: bold;
+  font-size: 70%;
+  text-align: center;
+  width: 80%;
+  left: 60%;
+  top: 30%;
+  transform: translate(-65%, 200%);
+}
+
+section .ngoai-le .news:hover img {
+  filter: brightness(60%) blur(1.5px);
+  transform: all 0.7s;
+}
+
+section .ngoai-le .news:hover .title {
+  transform: translate(-65%, 20%);
+  opacity: 1;
+  transition: all 0.7s;
+  color: rgb(192, 245, 245);
+}
+
+footer {
+}
+/*
+.news:hover p,h4{
+    color: #0077b6;
+} */
+
+.news a {
+  text-decoration: none;
+}
+
+.news a:hover > h4 {
+  color: #0077b6;
+}
+
+.logo-footer img {
+  width: 30%;
+}
+
+.icons li i {
+  font-size: 250%;
+}
+
+.icons li:hover i {
+  transform: scale(1.3);
+  color: #58a1f3;
+}
+
+/* đăng nhập */
+.modal-header {
+  background: #001d3d;
+}
+
+.modal-title {
+  font-size: 1.6em;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-body {
+  margin-top: 20px;
+}
+
+#submit {
+  background-color: #ef4d4d;
+  color: #fff;
+}
+
+#submit:hover {
+  background-color: #28d;
+}
+
+.section-dangnhap {
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+  margin-left: -28px;
+}
+
+.section-dangnhap li {
+  display: inline-block;
+}
+
+.section-dangnhap a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.75;
+  transition: opacity 0.15s linear;
+}
+
+.section-dangnhap a:hover {
+  opacity: 1;
+}
+
+.section-dangnhap i {
+  line-height: 43px;
+  font-size: 18px;
+}
+
+.facebook {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.googleplus {
+  background: #dd4b39;
+}
+
+.bottom-dangnhap {
+  box-sizing: border-box;
+  color: #666666;
+  text-align: center;
+}
+
+.bottom-dangnhap p {
+  font-size: 14px;
+}
+
+.bottom-dangnhap a {
+  color: #33b5e5;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.list-result {
+  padding: 0;
+  margin: 0px;
+}
+
+.list-result a {
+  text-decoration: none;
+}
+
+.list-result li {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  flex-direction: row;
+  border-width: 0;
+}
+.card img {
+  width: 40%;
+}
+
+.tonghop {
+  margin-top: 4rem;
+}
+
+.bold {
+  font-weight: 700;
+  color: rebeccapurple;
+}
+
